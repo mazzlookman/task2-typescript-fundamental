@@ -6,7 +6,8 @@ export function missionSummary(hero: Hero, goldCollected: GoldCollected): object
          hero_name: hero.name,
          gold_collected: goldCollected.extra_gold,
          experience_points: hero.experience,
-         current_health: hero.health
+         current_health: hero.health,
+         status: hero.status
       }
    }
 }

@@ -38,28 +38,3 @@ export let goldCollected: GoldCollected = {
     extra_gold: 1500,
     collected_by: mainHero
 }
-
-// Karakter Utama
-// export const heroName: {
-//     name: string;
-//     age: number;
-//     status: boolean;
-// } = {
-//     name: "Arion",
-//     age: 30,
-//     status: true
-// }
-//
-// // Sumber Daya Kerajaan
-//
-// export let kingdomResources: {
-//     gold: number;
-//     foods: number;
-//     soldiers: number;
-// } = {
-//     gold: 5000,
-//     foods: 120,
-//     soldiers: 200
-// }
-
-

@@ -25,7 +25,8 @@ export function addExperience(newExperience: number, hero: Hero): object {
         experience_details: {
             hero_name: hero.name,
             experience_points_before: hero.experience,
-            experience_points_current: currentExp
+            experience_points_new: newExperience,
+            total_experience_points: currentExp
         }
     }
 
